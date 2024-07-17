@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Attribute\Route;
 class Users extends AbstractController
 {
     /**
-     * @param string $text
+     * @param string $name
      * @return JsonResponse
      */
     #[Route('/searchByName/{name}', name: 'post_text', methods: ['GET'])]
