@@ -1,7 +1,11 @@
 # Read Me
-Para empezar, simplemente correr un servidor con symfony instalado.
+Pequeña guía sobre la app.
 
-La aplicación consiste en 2 partes:
+Aplicación probada y desarrollada en Symfony 7 y PHP 8.3
+
+Para poder correr la app, iniciar servidor en Symfony y realizar un "composer install" para descargar todas las dependencias necesarias.
+
+Es una aplicación base de Symfony, la parte "API Rest" se divide en:
 
  - Los métodos situados en "src/Controller/Methods"
  - Los servicios situados en "src/Service"
