@@ -10,6 +10,8 @@ class BigQuery
     /**
      * @param string $query
      * @return array
+     *
+     * sendQuery se encarga de realizar la sentencia SQL.
      */
     public function sendQuery(string $query): array
     {
